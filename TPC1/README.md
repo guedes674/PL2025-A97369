@@ -11,4 +11,4 @@ Este programa tem como objetivo somar sequências de dígitos num dado texto pas
 - O sinal de "=" faz com que seja imprimida para o stdout o resultado até ao próprio caratér.
 
 ## Lista de Resultados
-- [Código Python](somador_on_off.py)
+- [Código Python](tpc1.py)
