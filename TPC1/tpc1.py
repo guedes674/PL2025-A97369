@@ -8,7 +8,6 @@ def somador_on_off(text):
     num = ""
     i = 0
     text = text.strip().lower()
-    print(text)
 
     for i,c in enumerate(text):
         if c == "o":
