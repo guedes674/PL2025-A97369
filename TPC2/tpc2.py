@@ -16,7 +16,7 @@ def read_csv_data(file_path):
         for element in info:
             for i in element:
                 if atributte == 2:
-                    if re.match(r'^(1[0-9]{3}|20[0-2][0-5])$', i):
+                    if re.match(r'^(\d{4})$', i):
                         individual.append(i)
                         atributte += 1
                     else:
