@@ -11,7 +11,7 @@ Neste TPC foi solicitado que fosse analisado um ficheiro markdown e que fosse co
 
 ### Solução
 
-Foi implementada uma função para cada tipo de situação que possa aparecer em markdown (apenas as indicadas no enunciado), como por exemplo para links, imagens, titulos, itálico, etc...
+Foi implementada uma função para cada tipo de situação que possa aparecer em markdown (apenas as indicadas no enunciado), como para links, imagens, titulos, itálico, etc...
 E depois feita uma função geral que por cada linha do texto passado como argumento, fazia as verificações de todos os tipos de situações que se podia encontrar, tratando de forma diferente as listas, que eram tratadas da forma seguinte:
 1. Era verificada se a linha começava com um número e um. seguidos, (adicionalmente um espaço ou não), e se assim fosse iniciava-se uma lista e esse elemento era adicionada ao buffer de listas.
 2. Percorria as linhas até encontrar um elemento que não seja do formato de lista.
