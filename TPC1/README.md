@@ -2,8 +2,10 @@
 **Data:** 9 de Fevereiro de 2025
 
 # Autor
-**Nome:** Tiago Matos Guedes
-**Número:** a97369
+- Nome : Tiago Matos Guedes
+- Número : A97369
+
+<img src = "https://github.com/user-attachments/assets/c90bfde7-55cc-41ed-927c-8bc988d84250" width="200">
 
 ## Resumo
 Este programa tem como objetivo somar sequências de dígitos num dado texto passado como argumento seguindo as seguintes regras:

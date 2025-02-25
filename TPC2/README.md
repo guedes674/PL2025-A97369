@@ -4,6 +4,8 @@
 - Nome : Tiago Matos Guedes
 - Número : A97369
 
+<img src = "https://github.com/user-attachments/assets/c90bfde7-55cc-41ed-927c-8bc988d84250" width="200">
+
 ## Resumo
 ### Requisitos
 

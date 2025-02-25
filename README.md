@@ -5,4 +5,4 @@ Número : A97369
 
 Este repositório tem como função armazenar os TPC's da Unidade Curricular de Processamento de Linguagens.
 
-![eu](https://github.com/user-attachments/assets/c90bfde7-55cc-41ed-927c-8bc988d84250)
+<img src = "https://github.com/user-attachments/assets/c90bfde7-55cc-41ed-927c-8bc988d84250" width="200">
