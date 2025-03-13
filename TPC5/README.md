@@ -28,3 +28,6 @@ Foi implementado um analisador léxico (tokenizador) com os devidos tokens para 
 
 # Funcionalidade de selecionar item
 <img src="image3.png" alt="Imagem" width="300"/>
+
+# Funcionalidade de sair
+<img src="image4.png" alt="Imagem" width="300"/>
