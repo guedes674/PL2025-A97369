@@ -1,4 +1,4 @@
-import re, sys, json
+import re, json
 
 token_specification = [
     ('LISTAR', r'LISTAR'),
