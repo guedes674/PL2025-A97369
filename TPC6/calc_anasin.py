@@ -5,6 +5,7 @@ from calc_analex import tokens
 precedence = (
     ('left', 'PLUS', 'MINUS'),
     ('left', 'TIMES', 'DIVIDE'),
+    ('right', 'UMINUS')
 )
 
 def p_expression_calc(p):
@@ -28,6 +29,10 @@ def p_expression_calc(p):
 def p_expression_num(p):
     'expression : NUM'
     p[0] = int(p[1])
+    
+def p_expression_uminus(p):
+    'expression : MINUS expression %prec UMINUS'
+    p[0] = -p[2]
 
 def p_error(p):
     if p:
