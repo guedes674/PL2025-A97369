@@ -1,12 +1,14 @@
 import ply.lex as lex
 
-tokens = ('NUM', 'PLUS', 'MINUS', 'TIMES', 'DIVIDE')
+tokens = ('NUM', 'PLUS', 'MINUS', 'TIMES', 'DIVIDE', 'PA', 'PF')
 
 t_NUM = r'\d+'
 t_PLUS = r'\+'
 t_MINUS = r'-'
 t_TIMES = r'\*'
 t_DIVIDE = r'/'
+t_PA = r'\('
+t_PF = r'\)'
 
 def t_newline(t):
     r'\n+'
